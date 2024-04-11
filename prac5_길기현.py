@@ -2,9 +2,11 @@
 
 class Zoo:
     def __init__(self):
+        pass
 
     def show_animals_by_species(self):
-
+        pass
+    
     def add_animal(self, animal):
         # 동물을 동물원에 추가합니다.
         animal_name = f"{animal_name} the {animal_species}"
@@ -18,8 +20,8 @@ class Zoo:
 
 class Animal:
     def __init__(self, name, species):
-        self.animals = (name, species)
-
+        self.animals = (self, name, species)
+        pass
 def main():
     # 동물원을 선언하고 10마리의 동물들을 추가합니다.
     zoo = Zoo()
